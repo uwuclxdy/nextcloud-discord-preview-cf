@@ -1,0 +1,9 @@
+name = "nextcloud-discord-preview"
+main = "cloudflare-worker.js"
+compatibility_date = "2024-12-07"
+
+routes = [
+  { pattern = "YOUR-DOMAIN.com/s/*", zone_name = "YOUR-ZONE-NAME" }
+]
+
+account_id = "youridhere"
